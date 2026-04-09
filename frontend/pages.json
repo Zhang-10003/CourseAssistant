@@ -1,0 +1,40 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+			{
+			  "path": "pages/common/login",
+			  "style": {
+			    "navigationBarTitleText": "教师端"
+			  }
+			},
+		    {
+		      "path": "pages/teacher/index",
+		      "style": {
+		        "navigationBarTitleText": "教师端"
+		      }
+		    },
+		    {
+		      "path": "pages/admin/index", // 这里取消注释
+		      "style": {
+		        "navigationBarTitleText": "管理端"
+		      }
+		    },
+		    {
+		      "path": "pages/student/index", // 建议也加上
+		      "style": {
+		        "navigationBarTitleText": "学生端"
+		      }
+		    }
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom",
+		"app-plus": {
+			"titleView":false
+		}
+	},
+	"uniIdRouter": {}
+}

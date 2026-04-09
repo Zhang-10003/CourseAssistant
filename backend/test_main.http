@@ -1,0 +1,18 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/hello/User
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/mail/test?email=1750404601@qq.com
+
+### 测试发送验证码到邮箱
+GET http://127.0.0.1:8000/auth/code?email=3162810537@qq.com
+
+
